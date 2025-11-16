@@ -1,0 +1,33 @@
+//.card_container 
+    container-type: inline-size
+
+.card 
+    display: flex
+    gap: 30px
+    border-radius: 10px
+    overflow: hidden
+    box-shadow: 6px 7px 21px rgba(0, 0, 0, 0.07)
+
+.card_imageBox, .card_content
+    flex: 1
+
+.card_image 
+    position: relative
+    width: 100%
+    aspect-ratio: 16/9
+    min-height: 100%
+
+    img
+        object-fit: cover
+
+.card_content 
+    display: flex
+    flex-direction: column
+    justify-content: center
+    padding: 30px
+    padding-left: 0
+    
+//@container (max-width: 700ox)
+    .card
+        flex-direction: column
+

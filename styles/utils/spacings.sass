@@ -1,0 +1,29 @@
+//paddings
+$paddingTop: (80, 60, 50, 40, 30, 20)
+
+@each $pt in $paddingTop
+    .pt-#{$pt}
+        padding-top: #{$pt}px
+        
+        
+$paddingBottom: (80, 60, 50, 40, 30, 20, 10, 5)
+
+@each $pb in $paddingBottom   
+    .pb-#{$pb}
+        padding-bottom: #{$pb}px
+
+
+//margins
+$marginBottom: (80, 60, 50, 40, 30, 20, 10)
+
+@each $mb in $marginBottom   
+    .mb-#{$mb}
+        margin-bottom: #{$mb}px
+
+
+$marginTop: (80, 60, 50, 30, 20, 10)
+
+@each $mt in $marginTop   
+    .mt-#{$mt}
+        margin-top: #{$mt}px
+
