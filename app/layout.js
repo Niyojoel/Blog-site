@@ -1,7 +1,7 @@
 // import { Open_Sans } from "next/font/google";
 import "@/styles/styles.sass";
 import Header from "./components/Header/Header";
-import Footer from "./components/Footer";
+import Footer from "./components/Footer/Footer";
 
 // const openSans = Open_Sans({
 //   subsets: ["latin"],
